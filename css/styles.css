@@ -142,10 +142,10 @@ body {
 /* Sidebar. */
 
 #sidebar {
-	float: left;
+	position: relative;
+	z-index: 100;
 	background-color: #66b9ff;
 	color: #000000;
-	width: 15%;
 }
 
 #sidebar a {
@@ -178,7 +178,7 @@ body {
 	padding-right: 3%;
 	font-size: large;
 	text-align: justify;
-	width: 80%;
+	width: 95%;
 }
 
 /* Previous and Next Links. */
