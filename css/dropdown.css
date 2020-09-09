@@ -2,8 +2,6 @@
 
  /* Dropdown Button */
 .dropbtn {
-  position: relative;
-  z-index: 100;
   float: right;
   background-color: 6694e3;
   padding: 16px;
