@@ -139,46 +139,15 @@ body {
 	width: 100%;
 }
 
-/* Sidebar. */
-
-#sidebar {
-	position: relative;
-	z-index: 100;
-	background-color: #66b9ff;
-	color: #000000;
-}
-
-#sidebar a {
-	color : #000000;
-}
-
-#sidebar ul {
-	list-style: none;
-	padding-top: 5px;
-	/* Hack for correct indentation (the following three lines). */
-	margin-left: 0;
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-#sidebar li {
-	padding: 0 0 5px 5px;
-	font-size: large;
-	font-weight: bold;
-}
-
-#sidebar li a {
-	font-weight: normal:
-}
-
 /* Content. */
 
 #content {
 	float: right;
+	padding-left: 3%;
 	padding-right: 3%;
 	font-size: large;
 	text-align: justify;
-	width: 95%;
+	width: 94%;
 }
 
 /* Previous and Next Links. */
