@@ -132,22 +132,26 @@ body {
 	width: 99%;
 }
 
-/* Page body. */
-
-#pageBody { 
-	margin-top: 5px;
-	width: 100%;
-}
-
 /* Content. */
 
 #content {
-	float: right;
+	margin-top: 5px;
 	padding-left: 3%;
 	padding-right: 3%;
 	font-size: large;
 	text-align: justify;
-	width: 94%;
+	width: 100%;
+}
+
+/* Footer. */
+
+#footer {
+	clear: both;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: #000 1px solid; 
+	width: 100%;
 }
 
 /* Previous and Next Links. */
@@ -168,13 +172,4 @@ div.previousNextLinks span.nextLink {
 	width: 49.5%;
 }
 
-/* Footer. */
 
-#footer {
-	clear: both;
-	text-align: center;
-	margin-top: 5px;
-	padding-top: 5px;
-	border-top: #000 1px solid; 
-	width: 100%;
-}
