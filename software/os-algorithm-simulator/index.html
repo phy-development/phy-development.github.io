@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html">
+	<meta charset="UTF-8">
+	<meta name="author" content="Rafael L&oacute;pez Garc&iacute;a">
+	<title>Rafael L&oacute;pez Garc&iacute;a&apos;s OS Algorithm Simulator&apos;s Home Page</title>
+ 	<link rel="StyleSheet" href="../../css/styles.css" type="text/css" media="all" />
+        <link rel="StyleSheet" href="../../css/dropdown.css" type="text/css" media="all" />
+	<script src="../../js/dropdown.js"></script>
+</head>
+
+<!-- Start of HTML body. -->
+
+<body>
+
+<!-- Window. -->
+
+<div id="window">
+
+<!-- Body header. -->
+
+<div id="header">
+    <!-- Dropdown menu. -->
+    <div class="dropdown">
+        <img src="../../img/ic_drawer_black.png" alt="Menu" onclick="dropdownFunction()" class="dropbtn">
+        <div id="myDropdown" class="dropdown-content">
+            <a href="../index.html">&lt;&lt; Back to Rafael L&oacute;pez Garc&iacute;a&apos;s software page</a>
+            <a href="./index.html">Home</a>
+            <a href="https://play.google.com/store/apps/details?id=cs.rlopezga.osalgorithmsimulator" target="_blank">Download</a>
+            <a href="./privacy_policy.html" target="_blank">Privacy Policy</a>
+            <a href="./eula.txt">EULA</a>
+        </div>
+    </div> 
+    <!-- Title. -->
+    <p>Rafael L&oacute;pez Garc&iacute;a</p>
+</div>
+
+<!-- Content. -->
+
+<div id="content">
+	<h1>OS Algorithm Simulator</h1>
+
+	<h2>What is OS Algorithm Simulator?</h2>
+	<p>OS Algorithm Simulator is an educational application that allows you to simulate the algorithms that make an <i>Operating System</i> (OS) work.</p>
+	<p>As you may know, the main objective of an OS is to manage 4 resources:</p>
+	<ol>
+		<li>The CPU.</li>
+		<li>The Memory.</li>
+		<li>The Input/Output (I/O) System.</li>
+		<li>The File System.</li>
+    	</ol>
+	<p>Each OS contains several algorithms that provide the above functionalities. For instance:</p>
+	<ul>
+        	<li>A <i>CPU scheduling</i> algorithm chooses which <i>process</i> should take the CPU in each instant.</li>
+		<li>Another algorithm is in charge of not letting a <i>deadlock</i> happen when processes allocate resources.</li>
+		<li>A <i>memory management</i> algorithm divides the memory in portions for each process, and another decides which portions should be <i>swapped</i> and which ones should stay in RAM. 
+Allocation may be <i>contiguous</i> or not. In the latter case we will have more modern mechanisms such as <i>paging</i> or <i>segmentation</i>. Then, a <i>page replacement algorithm</i> will decide 
+which pages can stay in memory and which pages do not.</li>
+		<li>Another algorithm is in charge of paying attention to all the <i>interruptions</i> that the hardware can produce to the I/O system.</li>
+		<li>And so on.</li>
+	</ul>
+	<p>In order to understand an OS deeply, one must know how these algorithms work and why some approaches that seem reasonable have been discarded by well-known Operating Systems such as Windows 
+or Linux. The goal of this application is to provide explanations about different approaches to each problem and to illustrate how the each algorithm works by means of simulations. For that purpose, 
+this app contains some examples, but it also allows you to provide your own datasets and check how each algorithm would perform on them. It is also important to say that in most of the cases, this application does not contain the state-of-the-art algorithms, but simplifications that we consider better for the learning process.</p>
+
+	<h2>Features</h2>
+    
+	<h3>Process scheduling algorithms:</h3>
+	<p>Several preemptive and non-preemptive algorithms:</p>
+	<ul>
+		<li>First Come First Served</li>
+		<li>Shortest Job First</li>
+		<li>Shortest Remaining Time First</li>
+		<li>Priority-based (non-preemptive)</li>
+		<li>Priority-based (preemptive)</li>
+ 		<li>Round Robin</li>
+	</ul>
+	<h3>Deadlock algorithms:</h3>
+	<ul>
+		<li>Deadlock avoidance (banker's algorithm).</li>
+	</ul>
+	<h3>Contiguous memory allocation< algorithms:</h3>
+	<ul>
+		<li>First fit</li>
+		<li>Best fit</li>
+		<li>Worst fit</li>
+	</ul>
+	<h3>Page replacement algorithms:</h3>
+	<ul>
+		<li>Optimal page replacement</li>
+		<li>First-In-First-Out</li>
+		<li>Least Recently Used</li>
+		<li>First-In-First-Out with second chance</li>
+		<li>Not Frequently Used</li>
+		<li>Aging</li>
+	</ul>
+    <h3>For each algorithm:</h3>
+    <ul>
+        <li>It allows the creation of custom datasets for simulation.</li>
+        <li>It includes a test mode in order to test your comprehension.</li>
+    </ul>
+</div>
+
+<!-- Body footer. -->
+
+<div id="footer">
+	<a href="https://phy-development.github.io/">Rafael L&oacute;pez Garc&iacute;a</a> (<img class="email" src="../../img/email_phy_development.jpg" alt="phy DOT development AT gmail DOT com">).
+
+	<div class="copyright">&copy;2020 Rafael L&oacute;pez Garc&iacute;a. All rights reserved.</div>
+</div>
+
+<!-- End of "window" id. -->
+
+</div>
+
+<!-- End of HTML body. -->
+
+</body>
+
+<!-- End of HTML. -->
+
+</html>
