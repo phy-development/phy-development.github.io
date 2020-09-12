@@ -19,6 +19,7 @@
   float: left;
   position: relative;
   display: inline-block;
+  font-size: large;
 }
 
 /* Dropdown Content (Hidden by Default) */
