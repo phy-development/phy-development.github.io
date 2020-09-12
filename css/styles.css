@@ -76,7 +76,8 @@ li {
 img.email {
 	vertical-align: middle;
 	display: inline-block;
-	height: large;
+	margin: 0px;
+	padding: 0px;
 }
 
 /* Tables. */
