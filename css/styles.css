@@ -143,6 +143,15 @@ body {
 	width: 94%;
 }
 
+#contentCenter {
+	margin-top: 5px;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: large;
+	text-align: center;
+	width: 94%;
+}
+
 /* Footer. */
 
 #footer {
